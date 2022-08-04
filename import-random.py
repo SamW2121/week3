@@ -1,4 +1,3 @@
-#comment again
 import random
 
 password = ""
@@ -13,4 +12,4 @@ for i in range(password_length):
     random_integer = random.randint(0,126)
     password += chr(random_integer)
     
-print(password,"stuff")
+print(password,"stuff", len(password))
